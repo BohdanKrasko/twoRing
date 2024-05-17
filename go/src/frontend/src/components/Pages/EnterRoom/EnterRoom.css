@@ -1,0 +1,16 @@
+#divElement{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+}
+
+.ant-btn {
+    display: block;
+    margin-top: 3%;
+}
+
+button {
+    margin: auto;
+}

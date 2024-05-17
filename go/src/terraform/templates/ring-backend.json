@@ -1,0 +1,23 @@
+[
+    {
+      "essential": true,
+      "image": "882500013896.dkr.ecr.us-east-1.amazonaws.com/ecr-ring:latest",
+      "name": "ring-backend",
+      "portMappings": [
+        {
+          "containerPort": 8080,
+          "hostPort": 8080
+        }
+      ],
+      "networkMode": "awsvpc",
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+            "awslogs-group": "awslogs-ring",
+            "awslogs-region": "us-east-1",
+            "awslogs-stream-prefix": "awslogs-ring"
+        }
+    }
+    }
+  ]
+  

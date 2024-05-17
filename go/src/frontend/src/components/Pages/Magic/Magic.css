@@ -1,0 +1,30 @@
+#plane{
+    display: block;
+    margin: 0 auto;
+}
+
+#ring{
+    display: block;
+    margin: 0 auto;
+}
+
+#tag{
+    display: table;
+    margin: 0 auto;
+}
+
+#tag2{
+    display: table;
+    margin: 0 auto;
+    padding-top: 1%;
+}
+
+.ant-tag {
+    text-align: center;
+    white-space: pre-line;
+    line-height: 35px;
+    font-size: 22px;
+
+}
+#text{
+}
